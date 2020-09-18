@@ -1,0 +1,29 @@
+.bouton{
+    padding: 10px;
+border-radius: 5px;
+background-color: red;
+color: white;
+font-weight: bold;
+height: 50px;
+}
+.afficheur{
+    width: 50px;
+background-color: transparent;
+height: 40px;
+}
+.prix{
+    border:none;
+}
+span{
+   
+    height: 50px;
+}
+.conteneurItem{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+background-color:lightgray;
+}
+.red{
+    color:red;
+}
