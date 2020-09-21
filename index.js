@@ -15,7 +15,7 @@
 
                     }
                    
-                  total.value=somme;
+                  return total.value=somme;
 
                 }
 
@@ -48,8 +48,11 @@
                 for(let supprimer of supprimers){
                     supprimer.addEventListener('click',function(){
                         supprimer.parentNode.remove();
+                        sommer();
+                        
                        
                     })
+                    
                 }
                 
          
